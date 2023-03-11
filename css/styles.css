@@ -1,4 +1,25 @@
 
-    body {
-        font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
     }
+
+.header {
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 115px;
+    height: 24px;
+    left: 156px;
+    top: 24px;
+}
