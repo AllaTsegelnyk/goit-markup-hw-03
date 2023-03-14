@@ -1,25 +1,186 @@
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #757575;
+    font-family: "Roboto", sans-serif;
+    color: var(--dark);
+
     }
 
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --text: #434455;
+    --background-white: #FFFFFF;
+    --light-background: #F4F4FD; 
+}
+ /*терактивні елементи (кнопки ), при наведенні мишкою або фокусі з клавіатури, мають активний стан, вказаний в Style guide (зміна кольору). */
+
+/*header*/
+
 .header {
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
+    background: var(--background-white);
 }
-.logo {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
+.web-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand);
+}
+.studio-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;    
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+
+.header-link:is(:hover, :focus) {
+    color: var(--pressed-state);
+}
+
+.header-contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+
+.header-contacts:is(:hover, :focus) {
+    color: var(--pressed-state);
+}
+
+/* web studio */
+
+.order { 
+    background: var(--dark);
+}
+.order-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--background-white);
+}
+
+.order-button {
     
-    position: absolute;
-    width: 115px;
-    height: 24px;
-    left: 156px;
-    top: 24px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--background-white);
 }
+
+
+.service {
+    background: var(--background-white);
+}
+
+.service-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+.service-text { 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+
+.development { 
+    background: var(--light-background);
+}
+
+.development-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+.team-profession {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--text);
+}
+
+/*Portfolio*/
+
+
+
+.portfolio-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--background-white);
+}
+
+.projects-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+.projects-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+.foother {
+    background: var(--dark);
+}
+.foother-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-background);
+}
+
