@@ -91,8 +91,12 @@ body {
     letter-spacing: 0.04em;
     cursor: pointer;
     color: var(--background-white);
+    background-color: var(--primary-brand)
 }
-
+.order-button:is(:hover, :focus) {    
+    color: var(--background-white);
+    background-color: var(--pressed-state)
+}
 
 .service {
     background: var(--background-white);
@@ -152,16 +156,21 @@ body {
 
 
 
-.portfolio-button{
+.portfolio-button {
     font-family: inherit
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    color: var(--background-white);
-}
+    color: var(--primary-brand); 
+    background-color: var(--light-background); 
 
+}
+.portfolio-button:is(:hover, :focus) {
+    color: var(--background-white); 
+    background-color: var(--pressed-state);
+}
 .projects-name {
     font-weight: 500;
     font-size: 20px;
