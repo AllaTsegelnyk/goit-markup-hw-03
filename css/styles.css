@@ -177,6 +177,17 @@ body {
 .foother {
     background: var(--dark);
 }
+.foother-studio-logo {   
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--light-background);
+}
+
+}
 .foother-text {
     font-size: 16px;
     line-height: 1.5;
