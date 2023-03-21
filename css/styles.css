@@ -1,7 +1,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: var(--dark);
+    color: #2E2F42;
+    color: var(--text);
 
     }
 
@@ -25,23 +26,23 @@ body {
 .header {
     background: var(--background-white);
 }
-.web-logo {
-    font-family: 'Raleway', sans-serif;;
+.web {
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-brand);
+    color: #4D5AE5;
 }
 .studio-logo {
-    font-family: 'Raleway', sans-serif;;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--dark);
+    color: #2e2f42 ;
 }
 
 .header-link {
@@ -64,7 +65,13 @@ body {
 }
 
 .header-contacts:is(:hover, :focus) {
-    color: var(--pressed-state);
+    color: #404bbf;
+}
+.header-contacts-list {
+    list-style: none
+}
+.address { 
+    font-style: normal;
 }
 
 /* web studio */
@@ -94,11 +101,15 @@ body {
 }
 .order-button:is(:hover, :focus) {    
     color: var(--background-white);
-    background-color: var(--pressed-state)
+    background-color: #404BBF;
 }
 
 .service {
     background: var(--background-white);
+}
+
+.service-list {
+    list-style: none;
 }
 
 .service-title {
@@ -106,13 +117,13 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--dark);
+    color: #2e2f42 ;
 }
 .service-text { 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text);
+    color: #434455;
 }
 
 .development { 
@@ -128,13 +139,22 @@ body {
     color: var(--dark);
 }
 
+.team {
+    background-color: #F4F4FD;
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em; 
+    text-align: center; 
     text-transform: capitalize;
     color: var(--dark);
+}
+
+.team-list { 
+    background-color: #FFFFFF;
 }
 
 .team-name {
@@ -187,13 +207,13 @@ body {
     background: var(--dark);
 }
 .foother-studio-logo {   
-    font-family: 'Raleway', sans-serif;;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--light-background);
+    color: #f4f4fd ;
 }
 
 .foother-text {
