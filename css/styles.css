@@ -3,7 +3,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #2E2F42;
     color: var(--text);
-
+    background-color: var(--background-white);
     }
 
 .list {
@@ -135,6 +135,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: var(--dark);
 }
@@ -153,7 +154,7 @@ body {
     color: var(--dark);
 }
 
-.team-list { 
+.team-item { 
     background-color: #FFFFFF;
 }
 
@@ -176,7 +177,9 @@ body {
 
 
 .portfolio-button {
-    font-family: inherit
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -195,13 +198,13 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--dark);
+    color: #2e2f42 ;
 }
 .projects-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text);
+    color: #434455;
 }
 .foother {
     background: var(--dark);
